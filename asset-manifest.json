@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/crypta-firebase/static/css/main.e6c13ad2.css",
+    "main.js": "/crypta-firebase/static/js/main.dcbd4c00.js",
+    "index.html": "/crypta-firebase/index.html",
+    "main.e6c13ad2.css.map": "/crypta-firebase/static/css/main.e6c13ad2.css.map",
+    "main.dcbd4c00.js.map": "/crypta-firebase/static/js/main.dcbd4c00.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.dcbd4c00.js"
+  ]
+}
