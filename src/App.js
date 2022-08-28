@@ -1,11 +1,13 @@
+import React from "react";
+import { ThemeProvider } from "./context/ThemeContext";
 
-
+import NavBar from "./components/NavBar";
 
 function App() {
   return (
-    <div className="App">
-     s
-    </div>
+    <ThemeProvider>
+      <NavBar />
+    </ThemeProvider>
   );
 }
 
