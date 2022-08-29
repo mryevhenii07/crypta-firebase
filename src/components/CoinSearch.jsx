@@ -1,14 +1,20 @@
-import React from "react";
-import { AiOutlineStar } from "react-icons/ai";
+import React, { useState } from "react";
 
-const coinSearch = ({ coins }) => {
-  console.log(coins);
+import CoinItem from "../components/CoinItem";
+
+const CoinSearch = ({ coins }) => {
+  const [searchText, setSearchText] = useState("");
   return (
-    <div>
-      <div>
-        <h1>Search Crypto</h1>
+    <div className="rounded-div my-4">
+      <div className="flex flex-col md:flex-row justify-between pt-4 pb-6 text-center md:text-right">
+        <h1 className="text-2xl font-bold my-2">Search Crypto</h1>
         <form action="">
-          <input type="text" placeholder="Search a coin" />
+          <input
+            onChange={(e) => setSearchText(e.target.value)}
+            type="text"
+            placeholder="Search a coin"
+            className="w-full bg-primary border border-input px-4 py-2 rounded-2xl shadow-xl"
+          />
         </form>
       </div>
       <table>
@@ -26,32 +32,23 @@ const coinSearch = ({ coins }) => {
           </tr>
         </thead>
         <tbody>
-          {coins.map((coin) => {
-            return (
-              <tr key={coin.id}>
-                <th>
-                  <AiOutlineStar />
-                </th>
-                <th>{coin.market_cap_rank}</th>
-                <th>
-                  <div>
-                    <img src={coin.image} alt="img" />
-                    <p>{coin.name}</p>
-                  </div>
-                </th>
-                <th>{coin.symbol}</th>
-                <th>{coin.current_price}</th>
-                <th>{coin.price_change_percentage_24h}</th>
-                <th>{coin.total_volume}</th>
-                <th>{coin.market_cap}</th>
-                <th>{coin.sparkline_in_7d.price}</th>
-              </tr>
-            );
-          })}
+          {coins
+            .filter((value) => {
+              if (searchText === "") {
+                return value;
+              } else if (
+                value.name.toLowerCase().includes(searchText.toLowerCase())
+              ) {
+                return value;
+              }
+            })
+            .map((coin) => (
+              <CoinItem coin={coin} key={coin.id} />
+            ))}
         </tbody>
       </table>
     </div>
   );
 };
 
-export default coinSearch;
+export default CoinSearch;
