@@ -4,6 +4,7 @@ import { Route, Routes } from "react-router-dom";
 import axios from "axios";
 
 import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 
 import Home from "./routes/Home";
 import Signin from "./routes/Signin";
@@ -33,7 +34,9 @@ function App() {
 
         <Route path="/coin/:coinId" element={<CoinPage />} />
         <Route path=":coinId" />
+        <Route path="*" element={<Home coins={coins} />} />
       </Routes>
+      <Footer />
     </ThemeProvider>
   );
 }
