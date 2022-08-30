@@ -34,7 +34,6 @@ function App() {
 
         <Route path="/coin/:coinId" element={<CoinPage />} />
         <Route path=":coinId" />
-        <Route path="*" element={<Home coins={coins} />} />
       </Routes>
       <Footer />
     </ThemeProvider>
