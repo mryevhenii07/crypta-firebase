@@ -20,6 +20,8 @@ const Signin = () => {
     } catch (e) {
       setError(e.message);
     }
+    setEmail("");
+    setPassword("");
   };
   return (
     <div>
