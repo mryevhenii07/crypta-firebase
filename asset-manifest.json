@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/crypta-firebase/static/css/main.599eefae.css",
-    "main.js": "/crypta-firebase/static/js/main.c997b4ca.js",
+    "main.js": "/crypta-firebase/static/js/main.db75a838.js",
     "index.html": "/crypta-firebase/index.html",
     "main.599eefae.css.map": "/crypta-firebase/static/css/main.599eefae.css.map",
-    "main.c997b4ca.js.map": "/crypta-firebase/static/js/main.c997b4ca.js.map"
+    "main.db75a838.js.map": "/crypta-firebase/static/js/main.db75a838.js.map"
   },
   "entrypoints": [
     "static/css/main.599eefae.css",
-    "static/js/main.c997b4ca.js"
+    "static/js/main.db75a838.js"
   ]
 }
