@@ -31,7 +31,7 @@ function App() {
 
         <Routes>
           <Route
-            path="/"
+            path="/crypta-firebase"
             element={
               <Suspense>
                 <Home coins={coins} />
