@@ -74,6 +74,14 @@ function App() {
             }
           />
           <Route path=":coinId" />
+          <Route
+            path="*"
+            element={
+              <Suspense>
+                <Home coins={coins} />
+              </Suspense>
+            }
+          />
         </Routes>
 
         <Footer />
