@@ -143,6 +143,7 @@ const CoinPage = () => {
       </div>
       <div className="py-4">
         <p className="text-xl font-bold">About {coin.name}</p>
+
         <p
           dangerouslySetInnerHTML={{
             __html: DOMPurify.sanitize(
