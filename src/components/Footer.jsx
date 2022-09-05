@@ -67,7 +67,7 @@ const Footer = () => {
 "
           href="https://github.com/mryevhenii07"
         >
-          Powered by GITHUB
+          My page in GITHUB
         </a>
       </div>
     </div>
