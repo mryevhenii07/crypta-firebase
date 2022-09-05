@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/crypta-firebase/static/css/main.599eefae.css",
-    "main.js": "/crypta-firebase/static/js/main.e56e8285.js",
+    "main.js": "/crypta-firebase/static/js/main.a1a56cd4.js",
     "static/js/894.4eb9d0bc.chunk.js": "/crypta-firebase/static/js/894.4eb9d0bc.chunk.js",
     "static/js/840.07820749.chunk.js": "/crypta-firebase/static/js/840.07820749.chunk.js",
     "static/js/56.6f439c8d.chunk.js": "/crypta-firebase/static/js/56.6f439c8d.chunk.js",
@@ -11,7 +11,7 @@
     "static/js/703.2f06d53b.chunk.js": "/crypta-firebase/static/js/703.2f06d53b.chunk.js",
     "index.html": "/crypta-firebase/index.html",
     "main.599eefae.css.map": "/crypta-firebase/static/css/main.599eefae.css.map",
-    "main.e56e8285.js.map": "/crypta-firebase/static/js/main.e56e8285.js.map",
+    "main.a1a56cd4.js.map": "/crypta-firebase/static/js/main.a1a56cd4.js.map",
     "894.4eb9d0bc.chunk.js.map": "/crypta-firebase/static/js/894.4eb9d0bc.chunk.js.map",
     "840.07820749.chunk.js.map": "/crypta-firebase/static/js/840.07820749.chunk.js.map",
     "56.6f439c8d.chunk.js.map": "/crypta-firebase/static/js/56.6f439c8d.chunk.js.map",
@@ -22,6 +22,6 @@
   },
   "entrypoints": [
     "static/css/main.599eefae.css",
-    "static/js/main.e56e8285.js"
+    "static/js/main.a1a56cd4.js"
   ]
 }
